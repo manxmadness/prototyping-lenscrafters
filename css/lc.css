@@ -1,0 +1,276 @@
+        #preload{
+        display: none;
+        }
+
+        li #logo{
+            margin:0 !important;
+        }
+
+        menu > li #logo > a{
+            padding:0 !important;
+        }
+        #frame {
+            background: url(images/combos/frame-black.png);
+            display: block;
+            position: absolute;
+            width: 498px;
+            height: 263px;
+            background-repeat: no-repeat;
+            z-index: 2;
+            background-size: contain;
+        }
+        #model{
+            text-align: center;
+            font-size: 2.5rem !important;
+            padding-top:33px !important;
+            padding-bottom:33px !important;
+        }
+
+        .rating{
+            -moz-filter: grayscale(100%);
+            filter: gray;
+            -webkit-filter: grayscale(1);
+        }
+
+        
+        #frame-custom h2, #right-leg-custom h2, #left-leg-custom h2, #inner-custom h2{
+            text-align: center;
+            /*bottom:5px;*/
+            font-size: .8rem;
+            color:#878787;
+        }
+
+        /*overrides*/
+
+        .tabs, .tabs-content{
+            border: 0px !important;
+        }
+
+        #logo{
+            padding: 0 !important;
+        }
+
+        .menu a{
+            color: white !important;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        }
+
+        .menu a:hover{
+            color: #878787 !important;
+        }
+
+
+        h3,h4{
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            font-weight: bold !important;
+            color: #878787 !important;
+        }
+
+        #views{
+            left: 50%;
+            margin-right: -50%;
+            padding-top: 9rem;
+        }
+        .top-bar{
+            background-color: #D8D8D8 !important;
+        }
+        .medium-4{
+            float: right !important;
+            padding-top:33px !important;
+        }
+        .top{
+            padding-top: 100px;
+        }
+        /*overrides*/
+        .thumbnail{
+            /*cursor: pointer !important;*/
+        }
+        #l-leg {
+            background: url(images/combos/l-arm-black.png);
+            display: block;
+            position: absolute;
+            width: 498px;
+            height: 263px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #r-leg {
+            background: url(images/combos/r-arm-black.png);
+            display: block;
+            position: absolute;
+            width: 498px;
+            height: 263px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #inner{
+            background: url(images/combos/inner-black.png);
+            display: block;
+            position: absolute;
+            width: 498px;
+            height: 263px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #col_right{
+            float: right !important;
+        }
+        .col_margin{
+            padding-left: 1.9375rem !important;
+        }
+        #picker_row{
+            float: right;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            float: left;
+            margin: 5px;
+        }
+        #builder{
+            margin-top: 33px;
+        }
+        .blue {
+            background-color: #383361;
+            color: #383361;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+        .green {
+            background-color: #475a45;
+            color: #475a45;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+        .yellow {
+            background-color: #f9dd5d;
+            color: #f9dd5d;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+        .red {
+            background-color: #85262e;
+            color: #85262e;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+        .black {
+            background-color: #000000;
+            color: #000000;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+
+        .purple {
+            background-color: #7300c4;
+            color: #7300c4;
+            width: 30px;
+            height: 30px;
+            display: block;
+        }
+        .add {
+            /*background-color: #D8D8D8;*/
+            background: url(images/plus.png) #D8D8D8;
+            width: 30px;
+            height: 30px;
+            display: block;
+            background-repeat: no-repeat;
+        }
+        .swatch {
+            cursor: pointer;
+        }
+        .swatch:hover{
+            border: 0px solid red;
+            outline: #878787 solid 2px;
+
+        }
+
+        #randomize{
+            width:100%;
+            margin-top:15px; 
+        }
+
+        .swatch:active{
+            border: 0px solid red;
+            outline: #878787 solid 2px;
+
+        }
+        .label_kp {
+            padding-right: 5px;
+            width: 100px;
+            height: 30px;
+            color: black;
+        }
+        #glasses {
+            width: 498px;
+            height: 193px;
+            margin: auto;
+            /*padding-top:73px; */
+
+        }
+
+        
+        .box {
+            width: 300px;
+            height: 175px;
+            background-color: #eee;
+        }
+
+        .active {
+            
+            box-shadow: 0 0 6px 1px rgba(33,153,232,.5) !important;
+        }
+
+        .left_picker {
+            display: none;
+        }
+
+        .inner_picker {
+            display: none;
+        }
+
+        .right_picker {
+            display: none;
+        }
+        .frame_picker {
+            /*display: none;*/
+        }
+        .picker{
+            /*width: 500px;
+            position: absolute;
+            left: 50%;
+            margin-right: -50%;*/
+
+        }
+        #container {
+             
+            height: auto;
+            vertical-align: middle;
+            width: 750px;
+            height: 350px;
+            /*display: block;*/
+            /*border: 1px solid black;*/
+
+        }
+        #override {
+            float: left !important;
+        }
+
+        #cart{
+            height: 20px;
+        }
+
+        #cart:hover {
+            content: url('images/cart_hover.svg');
+        }
+
+        /*.c-margin {
+            margin-top: 100px !important;
+        }*/

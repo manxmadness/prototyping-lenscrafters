@@ -1,0 +1,380 @@
+/*
+
+    Template Name   : Volcano
+    Template Author : http://pixelhint.com
+    Author Email    : contact@pixelhint.com
+    License    		: http://pixelhint.com/license
+    
+    
+    *****************************************
+    
+
+*/
+/*    Reset Default Foundation Styling    */
+
+#preload{
+    display: none;
+}
+
+#tryAgain{
+    display: none;
+}
+
+#customize{
+    display: none;
+    margin-bottom: 10px !important;
+}
+
+#tryAgain, #customize{
+    position: relative; 
+    margin: auto; 
+}
+
+#customize, #tryAgain, #randomize{
+
+    width:150px;
+}
+#randomize{
+    position: relative; 
+    margin: auto; 
+    display: block;
+}
+.top-bar{
+	    padding: .5rem !important;
+}
+.row {
+    max-width: 1140px;
+    padding: 0 20px;
+}
+.top-bar .toggle-topbar.menu-icon a span::after {
+    right: 0;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    padding: 0 2rem 0 0.9375rem;
+}
+.top-bar,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover,
+.top-bar-section ul li,
+.top-bar.expanded .title-area,
+.no-js .top-bar-section ul li:hover > a {
+    background: transparent;
+    height: auto;
+    line-height: normal;
+    padding: 0;
+}
+.top-bar .name,
+.top-bar .name h1,
+.top-bar .name h2,
+.top-bar .name h3,
+.top-bar .name h4,
+.top-bar .name span,
+.top-bar .name p {
+    line-height: normal;
+    height: auto;
+    font-size: 1.375rem;
+}
+.top-bar.expanded .toggle-topbar a {
+    color: #fbdd90;
+}
+.top-bar.expanded .toggle-topbar a span::after {
+    box-shadow: 0 0 0 1px #fbdd90, 0 7px 0 1px #fbdd90, 0 14px 0 1px #fbdd90;
+}
+#scroll {
+    margin: auto;
+    width: 20px;
+    display: block;
+    position: relative;
+    padding-top: 3rem;
+}
+
+#myPicture {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 90px;*/
+}
+/*    Hero    */
+
+.hero {
+    width: 100%;
+    height: 750px;
+    background: url('images/main/surface.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hero .caption {
+    /*margin-top: 140px;*/
+}
+.hero .caption h1.mean_cap {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold !important;
+    text-align: center;
+    line-height: 70px;
+}
+.hero .caption h2.sub_cap {
+    font-family: "lato-light", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+.hero .caption .btn_details span {
+    display: inline-block;
+    color: #fff;
+    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .5px;
+    position: relative;
+    margin-right: 5px;
+    border-bottom: 1px dashed #ffffff;
+    padding-bottom: 3px;
+}
+.hero .caption .btn_details .arrow {
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.hero .caption .btn_details:hover .arrow {
+    -webkit-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    -o-transform: translateX(3px);
+    transform: translateX(3px);
+}
+/*    Header    */
+
+header {
+    width: 100%;
+    height: 130px;
+    background: transparent;
+}
+header nav {
+    margin-top: 60px;
+}
+header .top-bar-section ul li a {
+    color: #ffffff;
+    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: .5px;
+}
+header .top-bar-section ul li:last-child a {
+    margin-right: 0;
+}
+header .top-bar-section li:not(.has-form) a:not(.button) {
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+header .top-bar-section li:not(.has-form) a:not(.button):hover {
+    color: #fbdd90;
+}
+/*    Services    */
+
+.services {
+    padding: 80px 0;
+}
+.services .mean_title,
+.services .sub_title {
+    font-size: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #878787;
+    font-weight: bold !important;
+    text-align: center;
+}
+.services .sub_title {
+    font-size: 22px;
+    font-family: "raleway-light", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+.services .services_list {
+    margin-top: 50px;
+    text-align: center;
+}
+.services .services_list .serv_icon {
+    margin-bottom: 60px;
+}
+.services .services_list p {
+    color: #454545;
+    font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.menu a {
+    color: white !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.menu a:hover {
+    color: #eee !important;
+}
+#seemore{
+	width: 100%;
+	margin-top: 4.8rem;
+}
+#logo {
+    padding: 0 !important;
+}
+.glasses{
+	/*padding-bottom: 20px; */
+	cursor: pointer;
+}
+#cart {
+    height: 20px;
+}
+#cart:hover {
+    content: url('images/cart_hover2.svg');
+}
+.services .title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #878787;
+    font-weight: bold !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+.top-bar ul {
+    background-color: transparent;
+}
+/*    Footer    */
+
+#footer_row{
+
+}
+footer {
+    /*padding: 20px 0;*/
+    margin-bottom: 50px;
+    height:20px;
+    background: #F6F6F6;
+    border-top: 1px solid #CAC9C6;
+    margin:0!important;
+    font-size: 10pt;
+}
+
+footer ul{
+list-style-type: none;
+/*padding: 20px 0;*/
+}
+footer #footer_left li{
+	float: left;
+
+}
+
+footer #footer_right li{
+	float: right;
+}
+
+footer li{
+	padding: 15px 5px;
+}
+
+#footer_left{
+	float: left;
+	position: absolute;
+    left: 0 !important;
+    background-color: #F6F6F6;
+}
+
+#footer_right{
+	float: right;
+	position: absolute;
+    right: 0 !important;
+    background-color: #F6F6F6;
+}
+
+/*  Back To Top button  */
+
+#back_top {
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    opacity: 0;
+}
+
+.btn_fancy#back_top {
+    padding: 6px 16px;
+}
+.btn_fancy#back_top:hover .border_layer {
+    -webkit-transform: translate(1px, -1px);
+    -ms-transform: translate(1px, -1px);
+    -o-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+}
+.btn_fancy#back_top:hover .solid_layer {
+    -webkit-transform: translate(-1px, 1px);
+    -ms-transform: translate(-1px, 1px);
+    -o-transform: translate(-1px, 1px);
+    transform: translate(-1px, 1px);
+}
+/*    Responsive CSS    */
+
+@media only screen and (max-width: 40em) {
+    .top-bar .top-bar-section {
+        display: none;
+    }
+    .top-bar.expanded .top-bar-section {
+        display: block;
+    }
+    .top-bar-section ul {
+        margin-top: 70px;
+        background: #ffffff;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        color: #454545;
+        margin: 0;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+        background: #ffffff;
+        border-bottom: 1px solid #fff4d7;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+    }
+    header .top-bar-section li:not(.has-form):last-child a:not(.button) {
+        border: 0;
+    }
+    header .top-bar-section li:not(.has-form) a:not(.button):hover {
+        color: #454545;
+        background: #fbdd90;
+        padding: 20px 0;
+    }
+    .hero .caption h1.mean_cap,
+    .hero .caption h2.sub_cap {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    footer .copyrights {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    footer .social,
+    footer .contact {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 0;
+    }
+    footer .contact {
+        margin-top: 60px;
+    }
+}
+@media only screen and (min-width: 64.063em) {
+    #back_top {
+        right: 40px;
+        bottom: 40px;
+        margin-top: -22px;
+    }
+}

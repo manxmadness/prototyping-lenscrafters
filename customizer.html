@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handicraft by Lenscrafters</title>
+    <script src="js/jquery.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="css/lc.css">
+</head>
+
+<body>
+    <div id="preload">
+        <img src="css/images/cart_hover.svg" width="1" height="1" alt="Image 01" />
+        <img src="css/images/cart_hover2.svg" width="1" height="1" alt="Image 02" />
+    </div>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar" style="margin-bottom: 20px;">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text" id="logo">
+                    <a style="padding:0;margin:0;" href="main.html"><img src="css/images/handicraft2.svg" style="height: 30px; margin-left:.3rem; margin-top:.3rem;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="#">OUR PROCESS</a>
+                </li>
+                <li><a href="#">LOCATIONS</a>
+                </li>
+                <li><a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#"><img id="cart" src="css/images/cart.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="medium-3 columns" id="col_right" data-sticky-container>
+
+        <div class="column col_margin">
+            <div class="thumbnail active" id="frame-custom">
+                <h2>frame</h2>
+                <img src="css/images/silhouettes/allblack_front.png">
+            </div>
+        </div>
+        <div class="column col_margin">
+            <div class="thumbnail" id="left-leg-custom">
+                <h2>left leg</h2>
+                <img src="css/images/silhouettes/allblack_left.png">
+            </div>
+        </div>
+        <div class="column col_margin">
+            <div class="thumbnail" id="right-leg-custom">
+                <h2>right leg</h2>
+                <img src="css/images/silhouettes/allblack_right.png">
+            </div>
+        </div>
+        <div class="column col_margin">
+            <div class="thumbnail" id="inner-custom">
+                <h2>inner</h2>
+                <img src="css/images/silhouettes/allblack_inside.png">
+            </div>
+        </div>
+    </div>
+    <div class="row c-margin" id="content">
+
+        <div class="medium-9 column" style="padding-bottom: 5%;">
+            <h3 id="model">The Bella Donna</h3>
+            <div id="glasses">
+                <div id="frame"></div>
+                <div id="l-leg"></div>
+                <div id="r-leg"></div>
+                <div id="inner"></div>
+            </div>
+            <div class="medium-8 column" id="override">
+                <div class="row small-up-4" id="views">
+                    <div class="column">
+                        <img class="thumbnail" src="css/images/angles/glasses1.png">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail" src="css/images/angles/glasses2.png">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail" src="css/images/angles/glasses3.png">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail" src="css/images/angles/glasses4.png">
+                    </div>
+                </div>
+
+                <div class="row small-up-4" id="picker_row">
+                    <ul class="frame_picker picker">
+                        <li class="black swatch"></li>
+                        <li class="red swatch"></li>
+                        <li class="blue swatch"></li>
+                        <li class="green swatch"></li>
+                        <li class="yellow swatch"></li>
+                        <li class="purple swatch"></li>
+                        <li class="add swatch"></li>
+
+                    </ul>
+
+                    <ul class="left_picker picker">
+                        <li class="black swatch"></li>
+                        <li class="red swatch"></li>
+                        <li class="blue swatch"></li>
+                        <li class="green swatch"></li>
+                        <li class="yellow swatch"></li>
+                        <li class="purple swatch"></li>
+                        <li class="add swatch"></li>
+                    </ul>
+
+                    <ul class="right_picker picker">
+                        <li class="black swatch"></li>
+                        <li class="red swatch"></li>
+                        <li class="blue swatch"></li>
+                        <li class="green swatch"></li>
+                        <li class="yellow swatch"></li>
+                        <li class="purple swatch"></li>
+                        <li class="add swatch"></li>
+                    </ul>
+
+                    <ul class="inner_picker picker">
+                        <li class="black swatch"></li>
+                        <li class="red swatch"></li>
+                        <li class="blue swatch"></li>
+                        <li class="green swatch"></li>
+                        <li class="yellow swatch"></li>
+                        <li class="purple swatch"></li>
+                        <li class="add swatch"></li>
+                    </ul>
+                    <button class="button" id="randomize">Randomize!</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="large-8 columns">
+
+            <h3>Description</h3>
+            <p style="padding-right:30%">The Bella Donna is made with the finest craftmanship. With Handicraft, you can guarantee yours is one of a kind. Made in Italy. 100% Acrylic.</p>
+        </div>
+        <div class="large-4 columns">
+
+            <div class="row">
+                <div class="small-3 columns">
+                    <label for="middle-label" class="middle">Prescription</label>
+                </div>
+
+                <div class="small-4 columns">
+                    <input type="text" id="middle-label" placeholder="L">
+                </div>
+                <div class="small-4 columns">
+                    <input type="text" id="middle-label" placeholder="R">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-3 columns">
+                    <label for="middle-label" class="middle">Quantity</label>
+                </div>
+                <div class="small-9 columns">
+                    <input type="text" id="middle-label" placeholder="0">
+                </div>
+            </div>
+            <a href="#" class="button large expanded">Buy Now</a>
+        </div>
+
+    </div>
+
+
+    <div class="column row">
+        <hr>
+        <div class="tabs-content" data-tabs-content="example-tabs">
+            <div class="tabs-panel is-active" id="panel1" aria-hidden="false">
+                <h4>Reviews</h4>
+                <div class="media-object stack-for-small">
+
+                    <div class="media-object-section">
+                        <h5>sk8erboi82</h5>
+                        <div class="rating"><img src="css/images/rating.gif">
+                        </div>
+                        <p>Luv my custom glasses. Ty LC!!</p>
+                    </div>
+                </div>
+                <div class="media-object stack-for-small">
+
+                    <div class="media-object-section">
+                        <h5>sweetipii</h5>
+                        <div class="rating"><img src="css/images/rating.gif">
+                        </div>
+                        <p>Never thought I'd be shopping at lenscrafters again after all these years! but this customizer is amaaaaazing!</p>
+                    </div>
+                </div>
+                <div class="media-object stack-for-small">
+
+                    <div class="media-object-section">
+                        <h5>AWHockeyGuy</h5>
+                        <div class="rating"><img src="css/images/rating.gif">
+                        </div>
+                        <p>These r gr8 for playing hockey bc all my teammates can see me on the ice. sick.</p>
+                    </div>
+                </div>
+                <label>
+                    My Review
+                    <textarea placeholder="None"></textarea>
+                </label>
+                <button class="button">Submit Review</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+    $(document).foundation();
+
+    $("#randomize").click(function() {
+
+        var frameColors = ["css/images/combos/frame-blue.png", "css/images/combos/frame-yellow.png", "css/images/combos/frame-red.png", "css/images/combos/frame-black.png", "css/images/combos/frame-green.png", "css/images/combos/frame-purple.png"];
+
+        var leftLegColors = ["css/images/combos/l-arm-blue.png", "css/images/combos/l-arm-yellow.png", "css/images/combos/l-arm-purple.png", "css/images/combos/l-arm-red.png", "css/images/combos/l-arm-black.png", "css/images/combos/l-arm-green.png"];
+
+        var rightLegColors = ["css/images/combos/r-arm-blue.png", "css/images/combos/r-arm-yellow.png", "css/images/combos/r-arm-red.png", "css/images/combos/r-arm-purple.png", "css/images/combos/r-arm-black.png", "css/images/combos/r-arm-green.png"];
+
+        var innerColors = ["css/images/combos/inner-blue.png", "css/images/combos/inner-purple.png", "css/images/combos/inner-yellow.png", "css/images/combos/inner-red.png", "css/images/combos/inner-green.png", "css/images/combos/inner-black.png"];
+
+        var randFrame = Math.floor(Math.random() * frameColors.length);
+        var randLeftLeg = Math.floor(Math.random() * leftLegColors.length);
+        var randRightLeg = Math.floor(Math.random() * rightLegColors.length);
+        var randInner = Math.floor(Math.random() * innerColors.length);
+
+        $("#frame").css('background', 'url(' + frameColors[randFrame] + ')');
+        $("#frame").css('background-size', 'contain');
+
+        $("#l-leg").css('background', 'url(' + leftLegColors[randLeftLeg] + ')');
+        $("#l-leg").css('background-size', 'contain');
+
+        $("#r-leg").css('background', 'url(' + rightLegColors[randRightLeg] + ')');
+        $("#r-leg").css('background-size', 'contain');
+
+        $("#inner").css('background', 'url(' + innerColors[randInner] + ')');
+        $("#inner").css('background-size', 'contain');
+
+    });
+
+
+    $("#frame-custom").click(function() {
+        $(this).addClass('active');
+        $("#left-leg-custom").removeClass('active');
+        $("#right-leg-custom").removeClass('active');
+        $("#inner-custom").removeClass('active');
+    });
+
+    $("#left-leg-custom").click(function() {
+        $(this).addClass('active');
+        $("#frame-custom").removeClass('active');
+        $("#right-leg-custom").removeClass('active');
+        $("#inner-custom").removeClass('active');
+
+    });
+
+    $("#right-leg-custom").click(function() {
+        $(this).addClass('active');
+        $("#left-leg-custom").removeClass('active');
+        $("#frame-custom").removeClass('active');
+        $("#inner-custom").removeClass('active');
+
+    });
+
+    $("#inner-custom").click(function() {
+        $(this).addClass('active');
+        $("#left-leg-custom").removeClass('active');
+        $("#right-leg-custom").removeClass('active');
+        $("#frame-custom").removeClass('active');
+
+    });
+
+
+    $(".frame_picker .blue").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-blue.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".frame_picker .red").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-red.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".frame_picker .black").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-black.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".frame_picker .green").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-green.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".frame_picker .purple").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-purple.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".frame_picker .yellow").click(function() {
+        $("#frame").css('background', 'url(' + 'css/images/combos/frame-yellow.png' + ')');
+        $("#frame").css('background-size', 'contain');
+    });
+
+    $(".left_picker .blue").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-blue.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".left_picker .red").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-red.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".left_picker .black").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-black.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".left_picker .green").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-green.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".left_picker .purple").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-purple.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".left_picker .yellow").click(function() {
+        $("#l-leg").css('background', 'url(' + 'css/images/combos/l-arm-yellow.png' + ')');
+        $("#l-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .blue").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-blue.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .purple").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-purple.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .red").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-red.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .black").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-black.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .green").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-green.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+    $(".right_picker .yellow").click(function() {
+        $("#r-leg").css('background', 'url(' + 'css/images/combos/r-arm-green.png' + ')');
+        $("#r-leg").css('background-size', 'contain');
+    });
+
+
+    $(".inner_picker .blue").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-blue.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $(".inner_picker .black").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-black.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $(".inner_picker .red").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-red.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $(".inner_picker .green").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-green.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $(".inner_picker .yellow").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-yellow.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $(".inner_picker .purple").click(function() {
+        $("#inner").css('background', 'url(' + 'css/images/combos/inner-purple.png' + ')');
+        $("#inner").css('background-size', 'contain');
+    });
+
+    $("#frame-custom").click(function() {
+        $(".frame_picker").css('display', 'block');
+        $(".left_picker").css('display', 'none');
+        $(".right_picker").css('display', 'none');
+        $(".inner_picker").css('display', 'none');
+
+    });
+
+    $("#left-leg-custom").click(function() {
+        $(".left_picker").css('display', 'block');
+        $(".frame_picker").css('display', 'none');
+        $(".right_picker").css('display', 'none');
+        $(".inner_picker").css('display', 'none');
+
+    });
+
+    $("#right-leg-custom").click(function() {
+        $(".right_picker").css('display', 'block');
+        $(".frame_picker").css('display', 'none');
+        $(".left_picker").css('display', 'none');
+        $(".inner_picker").css('display', 'none');
+
+    });
+
+    $("#inner-custom").click(function() {
+        $(".inner_picker").css('display', 'block');
+        $(".right_picker").css('display', 'none');
+        $(".frame_picker").css('display', 'none');
+        $(".left_picker").css('display', 'none');
+
+    });
+</script>
+
+</html>

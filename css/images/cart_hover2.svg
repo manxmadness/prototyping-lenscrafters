@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="33px" viewBox="0 0 37 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)" stroke="#EEEEEE" stroke-width="3">
+            <polyline id="Shape" points="11.7174375 17.3076923 6.73955 23.6598462 36.5375 23.6598462"></polyline>
+            <polyline id="Shape" points="6.1332125 3.68261538 34.50805 3.68261538 34.50805 17.3076923 11.7174375 17.3076923 4.248525 0 0 0"></polyline>
+            <ellipse id="Oval" cx="10.7064125" cy="27.6830769" rx="1.8449125" ry="1.84107692"></ellipse>
+            <ellipse id="Oval" cx="31.0023" cy="27.6830769" rx="1.845375" ry="1.84153846"></ellipse>
+        </g>
+    </g>
+</svg>

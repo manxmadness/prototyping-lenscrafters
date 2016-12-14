@@ -1,0 +1,181 @@
+.li-box{
+  padding: 5px;
+  border:1px solid black;
+}
+.border{
+  border:1px solid #e6e6e6;
+  /*width: 15%;*/
+  /*padding: 10px;*/
+  }
+
+  footer #footer_left li{
+  float: left;
+
+}
+
+footer #footer_right li{
+  float: right;
+}
+
+footer li{
+  /*padding: 15px 5px;*/
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+#footer_left{
+  float: left;
+  position: absolute;
+    left: 0 !important;
+    /*background-color: #F6F6F6;*/
+}
+
+#footer_right{
+  float: right;
+  position: absolute;
+    right: 0 !important;
+    /*background-color: #F6F6F6;*/
+}
+
+.border:hover{
+  background-color: rgba(255, 255, 255, .6);
+}
+
+/* Progress Bar */
+.progress {
+  background-color: #F6F6F6;
+  border: 1px solid white;
+  height: 1.38889rem;
+  margin-bottom: 0.55556rem;
+  padding: 0.11111rem; }
+  .progress .meter {
+    background: #008CBA;
+    display: block;
+    height: 100%;
+    float: left;
+    width: 0%; }
+    .progress .meter.secondary {
+      background: #e7e7e7;
+      display: block;
+      height: 100%;
+      float: left;
+      width: 0%; }
+    .progress .meter.success {
+      background: #43AC6A;
+      display: block;
+      height: 100%;
+      float: left;
+      width: 0%; }
+    .progress .meter.alert {
+      background: #f04124;
+      display: block;
+      height: 100%;
+      float: left;
+      width: 0%; }
+  .progress.secondary .meter {
+    background: #e7e7e7;
+    display: block;
+    height: 100%;
+    float: left;
+    width: 0%; }
+  .progress.success .meter {
+    background: #43AC6A;
+    display: block;
+    height: 100%;
+    float: left;
+    width: 0%; }
+  .progress.alert .meter {
+    background: #f04124;
+    display: block;
+    height: 100%;
+    float: left;
+    width: 0%; }
+  .progress.radius {
+    border-radius: 3px; }
+    .progress.radius .meter {
+      border-radius: 2px; }
+  .progress.round {
+    border-radius: 1000px; }
+    .progress.round .meter {
+      border-radius: 999px; }
+
+.range-slider {
+  border: 1px solid #DDDDDD;
+  margin: 1.11111rem 0;
+  position: relative;
+  -ms-touch-action: none;
+  touch-action: none;
+  display: block;
+  height: 0.88889rem;
+  width: 100%;
+  background: #FAFAFA; }
+  .range-slider.vertical-range {
+    border: 1px solid #DDDDDD;
+    margin: 1.11111rem 0;
+    position: relative;
+    -ms-touch-action: none;
+    touch-action: none;
+    display: inline-block;
+    height: 11.11111rem;
+    width: 0.88889rem; }
+    .range-slider.vertical-range .range-slider-handle {
+      bottom: -9.33333rem;
+      margin-left: -0.44444rem;
+      margin-top: 0;
+      position: absolute; }
+    .range-slider.vertical-range .range-slider-active-segment {
+      border-bottom-left-radius: inherit;
+      border-bottom-right-radius: inherit;
+      border-top-left-radius: initial;
+      bottom: 0;
+      height: auto;
+      width: 0.77778rem; }
+  .range-slider.radius {
+    background: #FAFAFA;
+    border-radius: 3px; }
+    .range-slider.radius .range-slider-handle {
+      background: #008CBA;
+      border-radius: 3px; }
+      .range-slider.radius .range-slider-handle:hover {
+        background: #007ba4; }
+  .range-slider.round {
+    background: #FAFAFA;
+    border-radius: 1000px; }
+    .range-slider.round .range-slider-handle {
+      background: #008CBA;
+      border-radius: 1000px; }
+      .range-slider.round .range-slider-handle:hover {
+        background: #007ba4; }
+  .range-slider.disabled, .range-slider[disabled] {
+    background: #FAFAFA;
+    cursor: not-allowed;
+    opacity: 0.7; }
+    .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
+      background: #008CBA;
+      cursor: default;
+      opacity: 0.7; }
+      .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
+        background: #007ba4; }
+
+.range-slider-active-segment {
+  background: #e5e5e5;
+  border-bottom-left-radius: inherit;
+  border-top-left-radius: inherit;
+  display: inline-block;
+  height: 0.77778rem;
+  position: absolute; }
+
+.range-slider-handle {
+  border: 1px solid none;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.22222rem;
+  position: absolute;
+  top: -0.27778rem;
+  width: 1.77778rem;
+  z-index: 1;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background: #008CBA; }
+  .range-slider-handle:hover {
+    background: #007ba4; }
